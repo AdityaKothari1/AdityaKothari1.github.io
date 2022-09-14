@@ -1,0 +1,103 @@
+
+
+.Nav{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color:#FCD34D;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 10;
+}
+.Nav>div>img{
+    width:50px;
+    margin-left:80%;
+    border-radius: 50%;
+
+}
+.links{
+    /* border: 1px solid black; */
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10%;
+    font-weight: 500;
+     font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.secondNav{
+    /* border: 1px solid red; */
+    background-color:#FCD34D;
+    height: 50px;
+    display: none;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 10;
+}
+.ThirdNav{
+    /* border: 1px solid red; */
+    height: 50px;
+    display: none;
+    background-color:#FCD34D;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 10;
+}
+
+
+@media only screen and (min-width:421px) and (max-width: 820px) {
+    .secondNav{
+        display: block;
+        display: flex;
+      
+    }
+    .Nav{
+        display: none;
+    }
+    .menu{
+        /* border: 1px solid blue; */
+        color: teal;
+        border: none;
+          width: fit-content;
+          display: flex;
+          margin-left: 90%;
+          margin-right: 5%;
+          justify-content: center;
+          align-items: center;
+    }
+  }
+
+  @media only screen  and (max-width: 420px) {
+    .secondNav{
+        display: none;
+    }
+    .Nav{
+        display: none;
+    }
+    .ThirdNav{
+        display: block;
+        background-color:#FCD34D;
+    }
+    
+    .menu{
+        /* border: 1px solid blue; */
+        color: black;
+        border: none;
+        width: fit-content;
+          display: flex;
+          margin-left: 80%;
+          padding: 5px;
+          margin-right: 5%;
+          justify-content: center;
+          align-items: center;
+    }
+  }
+  
+  
