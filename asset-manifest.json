@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1165f9f0.css",
-    "main.js": "/static/js/main.971e6804.js",
+    "main.css": "/static/css/main.bc1b7064.css",
+    "main.js": "/static/js/main.3f5a48d3.js",
     "static/media/Modesens.png": "/static/media/Modesens.737b88d8b4a86e72fde0.png",
     "static/media/Sephora.png": "/static/media/Sephora.c11388df56b0eb5177dc.png",
     "static/media/PharmEasy.png": "/static/media/PharmEasy.b66eb1ef3c6df806536d.png",
@@ -9,11 +9,11 @@
     "static/media/profilepic.png": "/static/media/profilepic.97e823255664d0dce668.png",
     "static/media/Redux.png": "/static/media/Redux.7ea723c9435ca6efc295.png",
     "index.html": "/index.html",
-    "main.1165f9f0.css.map": "/static/css/main.1165f9f0.css.map",
-    "main.971e6804.js.map": "/static/js/main.971e6804.js.map"
+    "main.bc1b7064.css.map": "/static/css/main.bc1b7064.css.map",
+    "main.3f5a48d3.js.map": "/static/js/main.3f5a48d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1165f9f0.css",
-    "static/js/main.971e6804.js"
+    "static/css/main.bc1b7064.css",
+    "static/js/main.3f5a48d3.js"
   ]
 }
