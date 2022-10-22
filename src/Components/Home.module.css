@@ -5,10 +5,13 @@
     /* height: 500px; */
     margin-top: 60px;
     display: flex;
-    background-color:#c8945a;
+    background-color:#7393B3;
    padding-bottom: 120px;
-   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-
+   /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(84, 47, 47)); */
+ 
+    
+   
+     
 }
 .name{
     /* border: 1px solid black; */
@@ -17,6 +20,7 @@
 .mypic{
     /* border: 1px solid blue; */
     width: 25%;
+    height: fit-content;
     border-radius: 50%;
     margin-top: 3%;
     margin-right: 5%;
@@ -53,8 +57,8 @@
 }
 .icon{
     /* border: 1px solid teal; */
-    width: 40%;
-    margin-left: 10%;
+    width: 50%;
+    margin-left: 1%;
     margin-top: 10%;
     display: flex;
     justify-content: space-evenly;
@@ -95,12 +99,12 @@
     .mypic{
         /* border: 1px solid blue; */
         width: 35%;
-        margin-top: 3%;
+        margin-top: 10%;
         margin-left: -70%;
     }
     .mypic>img{
-        width: 90%;
-        height: 40%;
+        width: 80%;
+        height: 50%;
         border-radius: 50%;
     }
     .headname{
@@ -128,8 +132,8 @@
     }
     .icon{
         /* border: 1px solid teal; */
-        width: 40%;
-        margin-left: 30%;
+        width: 60%;
+        margin-left: 10%;
         margin-top: 2%;
         margin-bottom: 5%;
         display: flex;
@@ -147,9 +151,12 @@
         height:30px;
         
     }
+    .resume{
+        width: 30px;
+    }
 }
 
-@media only screen  and (max-width: 400px) {
+@media only screen  and (max-width: 412px) {
     .About{
         /* border: 1px solid rebeccapurple; */
         display: flex;
@@ -164,7 +171,7 @@
     .mypic{
         /* border: 1px solid blue; */
         width: 60%;
-        margin-top: 3%;
+        margin-top: 20%;
         margin-left: -80%;
     }
     .mypic>img{
@@ -198,8 +205,8 @@
     }
     .icon{
         /* border: 1px solid #008080; */
-        width: 60%;
-        margin-left: 15%;
+        width: 90%;
+        margin-left: 7%;
         margin-top: 5%;
         margin-bottom: 5%;
         display: flex;

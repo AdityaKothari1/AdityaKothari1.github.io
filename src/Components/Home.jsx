@@ -6,6 +6,7 @@ import React from 'react'
 import { Box, Heading, Highlight, Tooltip } from "@chakra-ui/react"
 import Aditya_Sharma_Resume from "../Assets/Aditya_Sharma_Resume.pdf"
 import profilepic from "../Assets/profilepic.png"
+import  Typical from "react-typical"
 function Home() {
   return (
     <div name="home" className={styles.About} >
@@ -19,8 +20,19 @@ function Home() {
                   </Highlight>
                       </Heading>
                   <Box style={{paddingTop:"10px"}}>
-                  <Heading  as='h1' size="3xl" color='#374151' styles={{ py: '1',fontWeight: 'bold',marginTop:"50px" }}>
-                    A Frontend Devloper
+                  <Heading  as='h1' size="2xl" color='#374151' styles={{ py: '1',fontWeight: 'bold',marginTop:"50px" }}>
+                    A <Typical loop={Infinity}
+                      wrapper="b"
+                      steps={[
+                        "FullStack Developer",
+                         3000,
+                        "JavaScript Developer",
+                        3000,
+                        "React Developer",
+                         3000
+                      ]}
+                    
+                    />
                   </Heading>
                   </Box>
                     </Heading>
@@ -35,25 +47,27 @@ function Home() {
              <div className={styles.icon}>
                   <div> 
                   <Tooltip label='Github' fontSize='md' bg='gray.300' fontWeight="bold" color='black'>
-                    <a href="https://github.com/AdityaKothari1"> <FaGithub size={50}/></a>
+                    <a href="https://github.com/AdityaKothari1"> <FaGithub className={styles.resume} size={50}/></a>
                      </Tooltip>
                   </div>
                   <div>
                   <Tooltip label='Linkedin' fontSize='md' bg='gray.300' fontWeight="bold" color='black'>
 
-                    <a href="https://www.linkedin.com/in/aditya-sharma-078731186/"> <FaLinkedin size={50}/></a>
+                    <a href="https://www.linkedin.com/in/aditya-sharma-078731186/"> <FaLinkedin className={styles.resume} size={50}/></a>
+                    
                     </Tooltip>
+                        
                          </div>
                   
                   <div>
                   <Tooltip label='Email' fontSize='md' bg='gray.300' fontWeight="bold" color='black'>
-                    <a href="mailto:adityakothari7062@gmail.com" >< MdAlternateEmail size={50}/></a>
+                    <a href="mailto:adityakothari7062@gmail.com" >< MdAlternateEmail className={styles.resume} size={50}/></a>
                     </Tooltip>
                   </div>
                    <div>
                       <Tooltip label='Resume' fontSize='md' bg='gray.300' fontWeight="bold" color='black'>
 
-                    <a href={Aditya_Sharma_Resume} download><HiOutlineDocumentDownload size={50}/></a>   
+                    <a href={Aditya_Sharma_Resume} download><HiOutlineDocumentDownload className={styles.resume} size={50}/></a>   
                       </Tooltip>
                    </div>
                  

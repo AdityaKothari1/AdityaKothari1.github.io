@@ -7,3 +7,14 @@
     text-align: center;
 
 }
+.intouch{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-evenly;
+    height:100px;
+    gap: 10px;
+     
+}

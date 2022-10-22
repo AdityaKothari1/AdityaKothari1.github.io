@@ -4,7 +4,7 @@ import React from 'react'
 import {Link} from "react-scroll"
 import { IconButton, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react"
 import { AddIcon, EditIcon, ExternalLinkIcon, HamburgerIcon, RepeatIcon }  from "@chakra-ui/icons"
-
+import Aditya_Sharma_Resume from "../Assets/Aditya_Sharma_Resume.pdf"
            
 function Navbar() {
   return (
@@ -32,17 +32,20 @@ function Navbar() {
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
+          <a href={Aditya_Sharma_Resume} download>Resume</a>
         </div>
       </div>
       <div className={styles.secondNav}>
         {/* <div><h1>AS</h1></div> */}
         <div className={styles.menu}>
-          <Menu>
+          <Menu >
             <MenuButton
               as={IconButton}
               aria-label="Options"
               icon={<HamburgerIcon />}
-              variant="outline"
+              variant=""
+              color="white"
+    
             />
             <MenuList h="250px">
               <Link to="home" smooth={true} duration={500}>
@@ -85,7 +88,8 @@ function Navbar() {
               as={IconButton}
               aria-label="Options"
               icon={<HamburgerIcon />}
-              variant="outline"
+              variant=""
+              color="white"
             />
             <MenuList h="250px">
               <Link to="home" smooth={true} duration={500}>

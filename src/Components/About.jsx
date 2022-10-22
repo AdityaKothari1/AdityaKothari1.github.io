@@ -14,10 +14,10 @@ const About = () => {
             </div>
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-6' style={{marginTop:"-5%"}}>
-                <div className='sm:text-right text-4xl font-bold '>
+                <div className='sm:text-right text-4xl font-bold'style={{margin:"auto",marginTop:"-2%"}}>
                     <p>Hi, I am Aditya Sharma. May I borrow a moment!</p>
                 </div>
-                <div>
+                <div style={{fontSize:"18px"}}>
                  <p> I have been doing FULL-TIME
                         course with Masai School.There I am learning Data Structures and Algorithm,
                         JavaScript,React etc.There I have been doing 1100+ hrs of coding.I have hands-on experience

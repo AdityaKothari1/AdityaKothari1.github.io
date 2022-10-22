@@ -5,7 +5,8 @@
     display: flex;
     height: 60px;
     justify-content: space-between;
-    background-color:#FCD34D;
+    background-color:#4681bc;
+
     position: fixed; 
     top: 0; 
     width: 100%;
@@ -19,20 +20,23 @@
 }
 .links{
     /* border: 1px solid black; */
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-right: 10%;
-    font-weight: 500;
+    margin-right: 5%;
+    font-weight: 700;
      font-size: 20px;
     cursor: pointer;
     color: black;
 }
+.links>a:hover{
+   border-bottom: 5px solid red;
+}
 
 .secondNav{
     /* border: 1px solid red; */
-    background-color:#FCD34D;
+    background-color:#4681bc;
     height: 50px;
     display: none;
     position: fixed; 
@@ -44,7 +48,7 @@
     /* border: 1px solid red; */
     height: 50px;
     display: none;
-    background-color:#FCD34D;
+    background-color:#4681bc;
     position: fixed; 
     top: 0; 
     width: 100%;
@@ -83,7 +87,7 @@
     }
     .ThirdNav{
         display: block;
-        background-color:#FCD34D;
+       
     }
     
     .menu{

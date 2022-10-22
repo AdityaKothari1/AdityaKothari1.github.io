@@ -5,10 +5,10 @@ import Redux  from "../Assets/Redux.png"
 function Skills() {
   return (
 
-    <div name="skills" className='bg-green-50'>
+    <div name="skills" style={{ backgroundColor:"#7393B3"}}>
     <div className={styles.skill} >
         <Heading className='heading' textAlign="center" fontWeight="bold" fontSize="40px" marginTop="10px" >SKILLS</Heading>
-      <SimpleGrid columns={[2, 3, 5]} spacing='20px' marginTop="20px" >
+      <SimpleGrid columns={[2, 3, 6]} spacing='20px' marginTop="20px" >
          <Box className={styles.shadow} border={"0px"}
          boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"
          w="80%" marginLeft="20px" padding="15px" borderRadius="5px">
@@ -67,11 +67,25 @@ function Skills() {
         <Divider marginTop="5px"/>
        <Text className={styles.text} >Github</Text>   
   </Box>
+ 
+
   <Box className={styles.shadow} border={"0px"} w="80%" marginLeft="20px" padding="15px" borderRadius="5px"          boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"
 >
-         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="" />
+         <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="" />
         <Divider marginTop="5px"/>
-       <Text className={styles.text} >VS Code</Text>   
+       <Text className={styles.text} >Node JS</Text>   
+  </Box>
+  <Box className={styles.shadow} border={"0px"} w="80%" marginLeft="20px" padding="15px" borderRadius="5px"          boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"
+>
+         <img src="https://www.kindpng.com/picc/m/385-3850482_mongodb-logo-png-transparent-png.png" alt="" />
+        <Divider marginTop="5px"/>
+       <Text className={styles.text} >Mongo DB</Text>   
+  </Box>
+  <Box className={styles.shadow} border={"0px"} w="80%" marginLeft="20px" padding="15px" borderRadius="5px"          boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"
+>
+  <img src="https://www.mementotech.in/assets/images/icons/express.png" alt="" />
+        <Divider marginTop="20px"/>
+       <Text className={styles.text} >Express Js</Text>   
   </Box>
 </SimpleGrid>
     </div>
