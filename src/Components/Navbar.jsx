@@ -5,6 +5,8 @@ import {Link} from "react-scroll"
 import { IconButton, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react"
 import { AddIcon, EditIcon, ExternalLinkIcon, HamburgerIcon, RepeatIcon }  from "@chakra-ui/icons"
 import Aditya_Sharma_Resume from "../Assets/Aditya_Sharma_Resume.pdf"
+import { FaHome } from "react-icons/fa"
+import { HiOutlineDocumentDownload } from "react-icons/hi"
            
 function Navbar() {
   return (
@@ -47,10 +49,10 @@ function Navbar() {
               color="white"
     
             />
-            <MenuList h="250px">
+            <MenuList   >
               <Link to="home" smooth={true} duration={500}>
                 {" "}
-                <MenuItem h="50px" icon={<AddIcon />}>
+                <MenuItem h="50px" icon={<FaHome  size={15}/>}>
                   Home
                 </MenuItem>
               </Link>
@@ -76,25 +78,31 @@ function Navbar() {
                   Contact
                 </MenuItem>
               </Link>
-            </MenuList>
+              <a href={Aditya_Sharma_Resume} download>
+              <MenuItem h="50px" icon={<HiOutlineDocumentDownload size={20}/>}>
+              Resume
+                </MenuItem>
+                </a>
+              </MenuList>
           </Menu>
         </div>
       </div>
       <div className={styles.ThirdNav}>
         {" "}
         <div className={styles.menu}>
-          <Menu>
+        <Menu >
             <MenuButton
               as={IconButton}
               aria-label="Options"
               icon={<HamburgerIcon />}
               variant=""
               color="white"
+    
             />
-            <MenuList h="250px">
+            <MenuList   >
               <Link to="home" smooth={true} duration={500}>
                 {" "}
-                <MenuItem h="50px" icon={<AddIcon />}>
+                <MenuItem h="50px" icon={<FaHome  size={15}/>}>
                   Home
                 </MenuItem>
               </Link>
@@ -120,7 +128,12 @@ function Navbar() {
                   Contact
                 </MenuItem>
               </Link>
-            </MenuList>
+              <a href={Aditya_Sharma_Resume} download>
+              <MenuItem h="50px" icon={<HiOutlineDocumentDownload size={20}/>}>
+              Resume
+                </MenuItem>
+                </a>
+              </MenuList>
           </Menu>
         </div>
       </div>

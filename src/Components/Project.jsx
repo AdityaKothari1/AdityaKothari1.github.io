@@ -113,7 +113,7 @@ function Project() {
                               <p className='text-4xl font-bold inline  text-center text-gray-100'>My Github contribution  </p>
                           </div>
                           <br />
-                          <div style={{width:"fit-content",margin:"auto",paddingBottom:"30px",color:"white"}}>
+                          <div style={{width:"fit-content",margin:"auto",paddingBottom:"30px",paddingLeft:"10px",paddingRight:"10px",color:"white"}}>
 
                           <GitHubCalendar  username="Adityakothari1" ><ReactTooltip delayShow={20} html /></GitHubCalendar>
                           </div>

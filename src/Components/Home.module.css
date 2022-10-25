@@ -8,8 +8,7 @@
     background-color:#7393B3;
    padding-bottom: 120px;
    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(84, 47, 47)); */
- 
-    
+    background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/black-paper-background.jpg");
    
      
 }
@@ -99,7 +98,7 @@
     .mypic{
         /* border: 1px solid blue; */
         width: 35%;
-        margin-top: 10%;
+        margin-top: 12%;
         margin-left: -70%;
     }
     .mypic>img{
@@ -110,7 +109,7 @@
     .headname{
         /* border: 1px solid blue; */
         width: 80%;
-        margin-top: 40%;
+        margin-top: 46%;
         margin-left: 10%;
     }
     .info{

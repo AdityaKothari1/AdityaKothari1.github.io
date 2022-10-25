@@ -5,9 +5,9 @@ import Redux  from "../Assets/Redux.png"
 function Skills() {
   return (
 
-    <div name="skills" style={{ backgroundColor:"#7393B3"}}>
+    <div name="skills" style={{ backgroundColor:"rgb(89,89,89)"}}>
     <div className={styles.skill} >
-        <Heading className='heading' textAlign="center" fontWeight="bold" fontSize="40px" marginTop="10px" >SKILLS</Heading>
+        <Heading className='heading' color={"white"} textAlign="center" fontWeight="bold" fontSize="40px" marginTop="10px" >SKILLS</Heading>
       <SimpleGrid columns={[2, 3, 6]} spacing='20px' marginTop="20px" >
          <Box className={styles.shadow} border={"0px"}
          boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"

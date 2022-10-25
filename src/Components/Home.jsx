@@ -14,13 +14,13 @@ function Home() {
          <div className={styles.name} >
            <div className={styles.headname}>
                     <Heading as='h1' size="3xl">
-                <Heading  as='h1' size="3xl" color='#374151'>
-                  <Highlight  query='Aditya Sharma'    styles={{ py: '1', fontWeight: 'bold',color:"#111827" }}>
+                <Heading  as='h1' size="3xl" color='white'>
+                  <Highlight  query='Aditya Sharma'    styles={{ py: '1', fontWeight: 'bold',color:"rgb(18,188,181)" }}>
                       Hi,I am Aditya Sharma 
                   </Highlight>
                       </Heading>
                   <Box style={{paddingTop:"10px"}}>
-                  <Heading  as='h1' size="2xl" color='#374151' styles={{ py: '1',fontWeight: 'bold',marginTop:"50px" }}>
+                  <Heading  as='h1' size="2xl" color='white' styles={{ py: '1',fontWeight: 'bold',marginTop:"50px" }}>
                     A <Typical loop={Infinity}
                       wrapper="b"
                       steps={[
