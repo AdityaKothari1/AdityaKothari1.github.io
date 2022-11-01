@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import styles from "./contact.module.css"
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-[650px] bg-[#9CA3AF] flex justify-center items-center p-4 pt-10 pb-10'>
+    <div name='contact' className='w-full h-[650px] bg-[rgb(89,89,89)] flex justify-center items-center p-4 pt-10 pb-10'>
         <form method='POST' action='https://getform.io/f/ee0ad374-9fd9-42cf-8a45-7df27def9f5e' className='flex flex-col max-w-[600px] w-full mt-8' >
             <div className='pb-4'>
                 <p className={styles.Contact}>Contact</p>

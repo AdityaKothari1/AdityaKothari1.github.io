@@ -4,6 +4,7 @@ import React from 'react'
 import PharmEasy from "../Assets/PharmEasy.png"
 import Modesens  from "../Assets/Modesens.png"
 import Sephora from "../Assets/Sephora.png"
+import Indeed from "../Assets/indeed.png"
 import { Box, Button, Link } from "@chakra-ui/react"
 import GitHubCalendar from 'react-github-calendar';
 import { AiOutlineHtml5 } from "react-icons/ai"
@@ -90,6 +91,32 @@ function Project() {
               </a>
             </h3>
             <p class="text-base font-semibold text-gray-600">Sephora offers beauty products including cosmetics, skincare, body, fragrance, nail color, beauty tools, body lotions and haircare</p>
+            <div style={{display:"flex",gap:"5%",marginTop:"20px",marginLeft:"20px"}}>
+                <AiOutlineHtml5 size={30}/>
+                <DiCss3 size={30}/>
+                <IoLogoJavascript size={28}/>
+                <GrReactjs size={28}/>
+              </div>
+            <div style={{display:"flex",gap:"5%",marginTop:"20px"}}>
+              <a href="https://github.com/AdityaKothari1/gorgeous-hole-2479">
+                <Button colorScheme='gray' variant='outline' marginLeft="20%">View Code</Button>
+              </a>
+                <a href="https://sephoraclone.vercel.app/">
+                <Button colorScheme='gray' variant='outline' marginLeft="20%">Deploy</Button>
+                </a>
+             </div>
+          </div>
+          <div class="group relative" style={{border:"0px solid red",marginTop:"20px",backgroundColor:"lightblue",padding:"10px",borderRadius:"5px",boxShadow:"rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px"}}>
+            <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+              <img src={Indeed}alt="Collection of four insulated travel bottles on wooden shelf." class="h-full w-full object-cover object-center"/>
+            </div>
+            <h3 class="mt-6 text-sm text-black-800" style={{fontWeight:"bold"}}>
+              <a href="https://sephoraclone.vercel.app/">
+                <span class="absolute inset-0"></span>
+                Indeed Clone
+              </a>
+            </h3>
+            <p class="text-base font-semibold text-gray-600">Indeed is an worldwide employment website for job listings. With Indeed, you can search millions of jobs online to find the next step in your career</p>
             <div style={{display:"flex",gap:"5%",marginTop:"20px",marginLeft:"20px"}}>
                 <AiOutlineHtml5 size={30}/>
                 <DiCss3 size={30}/>
