@@ -111,7 +111,7 @@ function Project() {
               <img src={Indeed}alt="Collection of four insulated travel bottles on wooden shelf." class="h-full w-full object-cover object-center"/>
             </div>
             <h3 class="mt-6 text-sm text-black-800" style={{fontWeight:"bold"}}>
-              <a href="https://sephoraclone.vercel.app/">
+              <a href="https://indeedproject.vercel.app/">
                 <span class="absolute inset-0"></span>
                 Indeed Clone
               </a>
@@ -127,7 +127,7 @@ function Project() {
               <a href="https://github.com/AdityaKothari1/gorgeous-hole-2479">
                 <Button colorScheme='gray' variant='outline' marginLeft="20%">View Code</Button>
               </a>
-                <a href="https://sephoraclone.vercel.app/">
+                <a href="https://indeedproject.vercel.app/">
                 <Button colorScheme='gray' variant='outline' marginLeft="20%">Deploy</Button>
                 </a>
              </div>
