@@ -124,7 +124,7 @@ function Project() {
                 <GrReactjs size={28}/>
               </div>
             <div style={{display:"flex",gap:"5%",marginTop:"20px"}}>
-              <a href="https://github.com/AdityaKothari1/gorgeous-hole-2479">
+              <a href="https://github.com/AdityaKothari1/nifty-deer-6877">
                 <Button colorScheme='gray' variant='outline' marginLeft="20%">View Code</Button>
               </a>
                 <a href="https://indeedproject.vercel.app/">
