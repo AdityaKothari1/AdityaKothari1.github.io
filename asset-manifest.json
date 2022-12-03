@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.2ad9ad2a.css",
-    "main.js": "/static/js/main.6b6021bd.js",
+    "main.js": "/static/js/main.775a3c87.js",
     "static/media/Modesens.png": "/static/media/Modesens.737b88d8b4a86e72fde0.png",
     "static/media/Sephora.png": "/static/media/Sephora.c11388df56b0eb5177dc.png",
     "static/media/PharmEasy.png": "/static/media/PharmEasy.b66eb1ef3c6df806536d.png",
+    "static/media/Wayto.png": "/static/media/Wayto.5604c81a4bbf3e2cac23.png",
     "static/media/Aditya_Sharma_Resume.pdf": "/static/media/Aditya_Sharma_Resume.7db4b6eccf5415e033a5.pdf",
     "static/media/profilepic.png": "/static/media/profilepic.97e823255664d0dce668.png",
     "static/media/indeed.png": "/static/media/indeed.4fa3b3106f0cd258723d.png",
     "static/media/Redux.png": "/static/media/Redux.7ea723c9435ca6efc295.png",
     "index.html": "/index.html",
     "main.2ad9ad2a.css.map": "/static/css/main.2ad9ad2a.css.map",
-    "main.6b6021bd.js.map": "/static/js/main.6b6021bd.js.map"
+    "main.775a3c87.js.map": "/static/js/main.775a3c87.js.map"
   },
   "entrypoints": [
     "static/css/main.2ad9ad2a.css",
-    "static/js/main.6b6021bd.js"
+    "static/js/main.775a3c87.js"
   ]
 }
